@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff; /* Set a default background color for the body */
+}
+
+.ContainerBackground {
+  padding: 20px 0; /* Add padding to the top and bottom */
+  background: black;
+  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+}
+
+.ContainerBackgroundAlt {
+  padding: 20px 0; /* Add padding to the top and bottom */
+  background: white;
+  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+}
+
+header {
+  background: url('GettyImages-1148667096.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+
+
+.Headertext {
+  background: #78034b3a;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.Headertext p {
+  font-size: 30px;
+  font-weight: bold;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 214, 49);
+  text-decoration: none;
+  text-shadow: 20px 15px 3px rgba(253, 202, 0, 0.59);
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.Headertext .curiotext{
+  text-align: left;
+  font-size: 40px;
+}
+
+.Headertext .softwaretext{
+  text-align: center;
+  font-size: 35px;
+}
+
+
+
+/* Style the nav element */
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav a span {
+  color: #fc0;
+  font-size: 25px
+}
+
+
+/* Style the links on hover */
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.Titlesection {
+  color: white;
+  text-shadow: #f8aecd 1px 1px 1px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.TitlesectionAlt {
+  padding-top: 20px;
+  text-shadow: black 2px 2px 1px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Descriptionsection {
+  width: 95%;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.DescriptionsectionAlt {
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  background: #ffffffac;
+  border-radius: 80px;
+}
+
+.container2 {
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.654);
+  border-radius: 80px;
+}
+
+.Grid {
+  height: 100%;
+  margin-left: 10rem;
+  display: grid;
+  grid-column-gap: 5%;
+  grid-template-columns: 25% 25% 25%;
+  grid-auto-flow: dense;
+}
+
+.Griditem {
+  transition: .4s;
+  border-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+  border: 3px rgb(0, 0, 0) inset;
+  margin: 10px;
+  display: flex;
+  flex-direction: column
+}
+
+.GriditemTitel {
+  color: black;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.GriditemPhoto {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 125px;
+}
+
+.GriditemText {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+
+.Griditem2 {
+  transition: .4s;
+  border-radius: 50px;
+  background-color: rgb(0, 0, 0);
+  border: 3px white inset;
+  margin: 10px;
+  display: flex;
+  flex-direction: column
+}
+
+.GriditemTitel2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.GriditemPhoto2 {
+  border-top-right-radius: 45px;
+  border-top-left-radius: 50px;
+  width: 100%;
+  height: 150px;
+}
+
+.GriditemText2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+.containerRooster {
+  border-radius: 80px;
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  background: #00000047;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Rooster {
+  border: black double 10px;
+  width: 80%;
+}
+
+.containerBlok {
+  border-radius: 80px;
+  margin: 0 auto;
+  width: 40%;
+  height: 80%;
+  background: #ffffff80;
+  display: flex;
+  justify-content: center;
+  padding:20px;
+}
+
+.Blokken {
+  border: #000000b7 solid 10px;
+  border-radius: 40px;
+}
+
+footer {
+  background-color: #000000;
+  margin-bottom: -20px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+/* Add a shadow between sections */
+.ContainerBackground, .ContainerBackgroundAlt {
+  padding: 20px 0; /* Add padding to the top and bottom */
+  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a small shadow */
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+  .Grid{
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  .Griditem{
+    width: 95%;
+    height: 50%;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media (max-width:399px) {
+  body{
+    width: 100%;
+  }
+  header {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+  .Grid{
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  .Griditem{
+    margin:  0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 50%;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+  .Titlesection{
+    font-size: 50px;
+  }
+  .Blokken{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .containerBlok{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .Headertext p {
+    font-size: 30px;
+  }
+}
