@@ -3,19 +3,24 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff; /* Set a default background color for the body */
+  background-color: #faa926;
+  /* Set a default background color for the body */
 }
 
 .ContainerBackground {
-  padding: 20px 0; /* Add padding to the top and bottom */
+  padding: 20px 0;
+  /* Add padding to the top and bottom */
   background: #faa926;
-  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+  margin-bottom: 20px;
+  /* Add margin at the bottom to separate sections */
 }
 
 .ContainerBackgroundAlt {
-  padding: 20px 0; /* Add padding to the top and bottom */
-  background: white;
-  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
+  padding: 20px 0;
+  /* Add padding to the top and bottom */
+  background: #56ddef;
+  margin-bottom: 20px;
+  /* Add margin at the bottom to separate sections */
 }
 
 header {
@@ -49,12 +54,13 @@ header {
   border-radius: 5px;
   position: relative;
 }
-.Headertext .curiotext{
+
+.Headertext .curiotext {
   text-align: left;
   font-size: 40px;
 }
 
-.Headertext .softwaretext{
+.Headertext .softwaretext {
   text-align: center;
   font-size: 35px;
 }
@@ -113,24 +119,32 @@ nav a:hover {
 }
 
 .TitlesectionAlt {
-  padding-top: 20px;
-  text-shadow: 20px 15px 3px rgba(255, 255, 255, 0.59);
-  color: white;
+  color: #56ddef;
+  text-shadow: 2px 1px 1px #69197c;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
+  background: #68197cd7;
+  border-radius: 20px;
+  padding: 1%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  width: 75%;
 }
 
 .Descriptionsection {
-  width: 95%;
+  width: 90%;
+  border-radius: 20px;
   margin: 0 auto;
-  color: black;
+  color: #56ddef;
+  background: #68197cd7;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;
+  padding: 0.5%;
+  margin-bottom: 1%;
 }
 
 .DescriptionsectionAlt {
@@ -146,7 +160,7 @@ nav a:hover {
 
 .container {
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
   height: 80%;
   background: #78034b3a;
   border-radius: 20px;
@@ -161,25 +175,25 @@ nav a:hover {
 }
 
 .Grid {
-  height: 110%;
-  width: 100%;
-  margin-left: 10rem;
+  width: 90%;
+  margin: 0 auto;
   display: grid;
-  grid-column-gap: 5%;
-  grid-template-columns: 25% 25% 25%;
-  grid-auto-flow: dense;
+  grid-template-columns: repeat(3, 1fr);
+  /* Exactly 3 columns */
+  grid-gap: 20px;
+  padding-top: 1rem;
 }
 
 .Griditem {
-  transition: .4s;
-  border-radius: 10px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
   background-color: #faa926;
-  border: 3px rgb(0, 0, 0) inset;
-  margin: 10px;
+  border: 3px inset black;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  transition: 0.4s;
+  padding: 10px;
+  box-sizing: border-box;
+  height: auto;
 }
 
 .GriditemTitel {
@@ -193,7 +207,8 @@ nav a:hover {
 }
 
 .GriditemTitelAlt {
-  color:white ;
+  background: #78034b66;
+  color: white;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   margin: 10px;
@@ -201,32 +216,46 @@ nav a:hover {
 }
 
 .GriditemPhoto {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
   width: 100%;
-  height: 35%;
+  height: 50%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .GriditemText {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: navy;
+  text-shadow: 0px 0px 5px #fc0;
+  margin: 10px;
+}
+
+.GriditemTextAlt {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: beige;
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
   margin: 10px;
 }
 
 .Griditem2 {
+  margin: 0 auto;
+  height: 100%;
+  width: 75%;
   transition: .4s;
-  border-radius: 50px;
-  background-color: rgb(0, 0, 0);
-  border: 3px white inset;
-  margin: 10px;
+  border-radius: 55px;
+  background-color: #69197c;
+  border: 3px #69197c solid;
+  margin-top: 10px;
   display: flex;
   flex-direction: column
 }
 
 .GriditemTitel2 {
-  color: rgb(255, 255, 255);
+  color: #56ddef;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   margin: 10px;
@@ -237,7 +266,7 @@ nav a:hover {
   border-top-right-radius: 45px;
   border-top-left-radius: 50px;
   width: 100%;
-  height: 150px;
+  height: 250px;
 }
 
 .GriditemText2 {
@@ -249,11 +278,11 @@ nav a:hover {
 }
 
 .containerRooster {
-  border-radius: 80px;
+  border-radius: 20px;
   margin: 0 auto;
   width: 90%;
   height: 80%;
-  background: #00000047;
+  background: #68197cd7;
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -261,22 +290,25 @@ nav a:hover {
 }
 
 .Rooster {
-  border: black double 10px;
+  border: solid #56ddef 5px;
   width: 80%;
+  height: auto; /* keep aspect ratio */
 }
 
 .containerBlok {
-  border-radius: 80px;
+  border-radius: 40px;
   margin: 0 auto;
-  width: 40%;
-  height: 80%;
+  width: 50%;
+  height: 20%;
   background: #ffffff80;
   display: flex;
   justify-content: center;
-  padding:20px;
+  padding: 20px;
 }
 
 .Blokken {
+  width: 100%;
+  height: 50%;
   border: #000000b7 solid 10px;
   border-radius: 40px;
 }
@@ -288,68 +320,105 @@ footer {
   height: 50px;
 }
 
-/* Add a shadow between sections */
-.ContainerBackground, .ContainerBackgroundAlt {
-  padding: 20px 0; /* Add padding to the top and bottom */
-  margin-bottom: 20px; /* Add margin at the bottom to separate sections */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a small shadow */
+.ContainerBackground,
+.ContainerBackgroundAlt {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 600px) {
   header {
-    padding: 10px; /* Reduce padding for smaller screens */
+    padding: 10px;
   }
-  .Grid{
+
+  .Grid {
     padding-top: 20px;
     display: block;
     margin: 0 auto;
   }
-  .Griditem{
+
+  .Griditem {
     width: 95%;
     height: 50%;
   }
 
-  .container{
+
+  .container {
     width: 100%;
     height: 100%;
   }
 
 }
 
-@media (max-width:399px) {
-  body{
+@media (max-width: 860px) {
+  .Rooster {
+    width: 90%;
+  }
+  .containerBlok{
+    width: 80%;
+  }
+}
+
+
+
+@media (max-width:860px) {
+  body {
     width: 100%;
   }
+
   header {
-    padding: 10px; /* Reduce padding for smaller screens */
+    padding: 10px;
   }
-  .Grid{
+
+  .Grid {
+    width: 90%;
     padding-top: 20px;
     display: block;
     margin: 0 auto;
   }
-  .Griditem{
-    margin:  0 auto;
+
+  .Griditem {
+    margin: 0 auto;
     margin-bottom: 20px;
     width: 80%;
     height: 50%;
   }
 
-  .container{
-    width: 100%;
+  .container {
+    width: 90%;
     height: 100%;
   }
-  .Titlesection{
+
+    .Rooster {
+    height: 100%;
+    width: 90%;
+    border-width: 3px; 
+  }
+    .containerBlok{
+    width: 80%;
+  }
+
+  .Titlesection {
     font-size: 50px;
   }
-  .Blokken{
+
+  .containerRooster{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+
+  .Blokken {
     margin: 0 auto;
     width: 90%;
   }
-  .containerBlok{
+
+  .containerBlok {
     margin: 0 auto;
     width: 80%;
   }
+
   .Headertext p {
     font-size: 30px;
   }
